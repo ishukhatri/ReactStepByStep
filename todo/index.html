@@ -1,56 +1,83 @@
 <!DOCTYPE>
 <html>
-    <head>
-        <title>
-            My Todo!!
-        </title>
-        <link rel="stylesheet" type="text/css" href="style.css"/>
-    </head>
-    <body>
-        <header>
-            Cool Todo Organizer
-        </header>
-        <section>
-            <div id="newTodoForm">
-                <input type="text" name="newTodo" placeholder="Add a Task">
-                <input type="button" value="Add">
-            </div>
 
+<head>
+    <title>
+        My Todo!!
+    </title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="header">
+                <h1>Cool Todo Organizer</h1>
+        </div>
+    </header>
+    <section>
+        <div id="newTodoForm">
+            <input type="text" name="newTodo" placeholder="Add a Task">
+            <button type="button" class="AddBtn">Add</button>
+        </div>
+
+        <div id="todoContent">
             <div id="todoList">
-                <div class="task">
-                        <input type="checkbox"> Loreum Ipsum
-                        <input type="button" value="Edit">
-                        <input type="button" value="Delete">
-                </div>
-                <div class="task">
-                        <input type="checkbox"> Loreum Ipsum
-                        <input type="button" value="Edit">
-                        <input type="button" value="Delete">
-                </div>
-                <div class="task">
-                        <input type="checkbox"> Loreum Ipsum
-                        <input type="button" value="Edit">
-                        <input type="button" value="Delete">
-                </div>
-                <div class="task">
-                        <input type="checkbox"> Loreum Ipsum
-                        <input type="button" value="Edit">
-                        <input type="button" value="Delete">
-                </div>
-                <div class="task">
-                        <input type="checkbox"> Loreum Ipsum
-                        <input type="button" value="Edit">
-                        <input type="button" value="Delete">
-                </div>
+                <ul>
+                    <li>
+                        <div class="task">
+                            <input type="checkbox"> Loreum Ipsum
+                            <button type="button" class="EditBtn">Edit</button>
+                            <button type="button" class="DeleteBtn">Delete</button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="task">
+                            <input type="checkbox"> Loreum Ipsum
+                            <button type="button" class="EditBtn">Edit</button>
+                            <button type="button" class="DeleteBtn">Delete</button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="task">
+                            <input type="checkbox"> Loreum Ipsum
+                            <button type="button" class="EditBtn">Edit</button>
+                            <button type="button" class="DeleteBtn">Delete</button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="task">
+                            <input type="checkbox"> Loreum Ipsum
+                            <button type="button" class="EditBtn">Edit</button>
+                            <button type="button" class="DeleteBtn">Delete</button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="task">
+                            <input type="checkbox"> Loreum Ipsum
+                            <button type="button" class="EditBtn">Edit</button>
+                            <button type="button" class="DeleteBtn">Delete</button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="task">
+                            <input type="checkbox"> Loreum Ipsum
+                            <button type="button" class="EditBtn">Edit</button>
+                            <button type="button" class="DeleteBtn">Delete</button>
+                        </div>
+                    </li>
+                </ul>
             </div>
 
             <div id="todoActions">
-                    <input type="button" value="Mark Done">
-                    <input type="button" value="Delete Selected"> 
+                <button type="button" class="EditBtn">Mark Done</button>
+                <button type="button" class="DeleteBtn">Delete Selected</button>
             </div>
-        </section>
-        <footer>
+        </div>
+    </section>
+    <footer>
 
-        </footer>
-    </body>
+    </footer>
+</body>
+
 </html>

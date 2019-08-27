@@ -1,0 +1,54 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+li {
+    border-bottom: solid 1px black;
+}
+
+li:nth-child(odd) {
+    background: #d8e2e6;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    border-radius: 12px;
+}
+
+.EditBtn,
+.AddBtn {
+    background-color: #4CAF50;
+}
+
+.DeleteBtn {
+    background-color: red;
+}
+
+#todoContent,
+#newTodoForm {
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#todoContent,
+#newTodoForm,
+#header {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+#task {
+    padding: 40px;
+}
+
+#todoActions {
+    float: right;
+    clear: none;
+}
