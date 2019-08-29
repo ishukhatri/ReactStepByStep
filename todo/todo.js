@@ -1,14 +1,6 @@
 function addTodo() {
     console.log("called add todo !!");
-    /**
-     * <li>
-                        <div class="task">
-                            <input type="checkbox"> Loreum Ipsum
-                            <button type="button" class="EditBtn">Edit</button>
-                            <button type="button" class="DeleteBtn">Delete</button>
-                        </div>
-                    </li>
-     */
+    
     var li = document.createElement("li");
     var taskDiv = document.createElement('div');
     taskDiv.setAttribute('class', 'task');
@@ -38,4 +30,24 @@ function addTodo() {
     document.getElementById("todoUL").appendChild(li);
     document.getElementById("newTodo").value = "";
 
+}
+
+function editTodo() {
+
+}
+
+function deleteTodo() {
+
+}
+
+function deleteMultipleTodo() {
+
+}
+
+function markAsDone(){
+
+}
+
+function markMultipleAsDone(){
+    
 }
